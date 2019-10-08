@@ -1,0 +1,18 @@
+section#historia-container .col-md-12 #carousel-row {
+    justify-content: center;
+}
+
+section#historia-container .row h1 {
+    color: #1b8140;
+    font-weight: 800;
+}
+
+section#historia-container .col-md-12 #carousel-row #carouselHistoria{
+    max-width: 700px;
+    max-height: 450px;
+}
+
+section#historia-container .col-md-12 #carousel-row #carouselHistoria li {
+    width: 30px;
+    height: 3px;
+}

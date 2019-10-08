@@ -1,0 +1,23 @@
+section#mvv-container #accordion .card .card-header {
+    background-color: #1b8140;
+    padding: 1.8%
+}
+
+section#mvv-container #accordion .card .card-header h5.mb-0 .btn {
+    font-weight: bolder !important;
+    color: #f0ffff !important;
+    outline: none !important;
+    text-decoration: none !important
+}
+
+section#mvv-container #accordion .card .card-header h5.mb-0 #header-text {
+    font-weight: bolder !important;
+    color: #f0ffff !important;
+    outline: none !important;
+    text-decoration: none !important;
+    font-family: 'Roboto', sans-serif
+}
+
+section#mvv-container #accordion .card .collapse .card-body {
+    background-color: azure;
+}

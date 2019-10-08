@@ -1,0 +1,13 @@
+section#eventos-container h3 {
+    color: #1b8140;
+    font-weight: 500;
+}
+
+section#eventos-container h4 {
+    font-weight: 500;
+}
+
+section#eventos-container h5 {
+    color: gray;
+    font-weight: 500;
+}

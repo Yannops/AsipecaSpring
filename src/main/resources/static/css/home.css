@@ -1,0 +1,60 @@
+section#home-container .row.mb-3 {
+    justify-content: center;
+    vertical-align: middle;
+}
+
+section#home-container .row.mb-3 img {
+    max-width: 500px;
+    height: auto;
+}
+
+section#home-container .col-md-12 .row .card .card-header {
+    background-color: #1b8140;
+}
+
+section#home-container .col-md-12 .row .card .card-header h3 {
+    color: #f0ffff;
+    font-weight: 800;
+    text-align: center;
+}
+
+section#home-container .col-md-12 .row .card .card-body #last-line1 {
+    color: #808080;
+    opacity: 0.6;
+}
+
+section#home-container .col-md-12 .row .card .card-body #last-line2 {
+    color: #808080;
+    opacity: 0.5;
+}
+
+section#home-container .col-md-12 .row .card .card-body #last-line3 {
+    color: #808080;
+    opacity: 0.4;
+}
+
+section#home-container .col-md-12 .row .card .card-body #last-line4 {
+    color: #808080;
+    opacity: 0.3;
+}
+
+section#home-container .col-md-12 .row .card .card-body #ver-mais {
+    color: #000000;
+    font-weight: 600;
+}
+
+section#home-container .col-md-12 .row .card .card-footer .btn {
+    background-color: #1b8140 !important;
+}
+
+section#home-container nav#bottom-bar {
+    color: azure;
+}
+
+section#home-container nav#bottom-bar h5 {
+    font-weight: 500;
+}
+
+section#home-container nav#bottom-bar #icon {
+    color: #6bb9f0 !important;
+}

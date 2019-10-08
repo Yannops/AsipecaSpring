@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" th:replace="~{default :: layout(~{::title}, ~{::section})}">
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>História</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+</head>
+
+<body>
+    <section id="historia-container">
+        <!-- Breadcrumb -->
+        <div style="margin-left: 3%; margin-right: 3%">
+            <div class="row mb-3">
+                <div class="col-md-12">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb"
+                            style="background: #fff; border-radius: 0; border-bottom: 2px solid#e4ba06;">
+                            <li class="breadcrumb-item"><a href="/home"
+                                    style="color: #1b8140; font-weight: 500">Home</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">História</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+
+            <div class="col-md-12">
+                <div class="row" id="carousel-row">
+                    <div id="carouselHistoria" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselHistoria" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselHistoria" data-slide-to="1"></li>
+                            <li data-target="#carouselHistoria" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="d-block w-100" th:src="@{/img/asipecaHist1.jpg}" alt="Nossa historia">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" th:src="@{/img/imgHistoria1.jpg}" alt="Nossa historia">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" th:src="@{/img/imgHistoria2.jpg}" alt="Nossa historia">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mt-5">
+                    <h1>Nossa História . . .</h1>
+                </div>
+                <div class="row" align="justify" style="font-size: 1.1em">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius est nulla, id rhoncus orci malesuada sit
+                    amet. Aliquam hendrerit feugiat nunc, in scelerisque nunc sodales vel. Nulla facilisi. Ut augue ante, luctus nec
+                    pulvinar at, egestas vel magna. Nulla blandit dolor ac nulla scelerisque, sit amet lacinia diam tempor. Vestibulum non
+                    ullamcorper eros, vel elementum nisi. Pellentesque placerat dictum lorem, at sagittis arcu mattis vitae. Phasellus diam
+                    eros, luctus viverra convallis ut, rhoncus eget justo. Sed tempor orci ut mauris vulputate sollicitudin. Cras luctus
+                    consectetur turpis ut tincidunt. Donec finibus aliquam lectus, vitae vulputate lorem semper et. Pellentesque vitae dolor
+                    ante.
+                    <br> <br>
+                    Nullam dui odio, dapibus quis efficitur sed, elementum sed nibh. Mauris consectetur elit in orci dapibus, quis placerat
+                    leo vestibulum. Sed pellentesque ligula eu varius efficitur. Sed sem ante, pulvinar vel dui vel, vulputate sodales
+                    risus. Vivamus quis neque efficitur, congue lectus vel, semper dui. Vestibulum maximus neque libero, quis dignissim
+                    lorem vulputate et. Nulla sed diam tincidunt, semper sem pretium, imperdiet nisi. Nullam ex velit, cursus quis facilisis
+                    in, consequat nec nunc. Aenean vehicula ullamcorper lacus. Vestibulum accumsan libero est, id rhoncus tortor laoreet ut.
+                    <br> <br>
+                    Donec scelerisque tortor orci, sed eleifend massa aliquet id. Fusce molestie massa at nunc ullamcorper consequat. Nullam
+                    augue erat, aliquam in dolor sed, consectetur viverra turpis. Pellentesque habitant morbi tristique senectus et netus et
+                    malesuada fames ac turpis egestas. Curabitur mattis, urna quis accumsan tempus, metus orci lacinia massa, nec venenatis
+                    erat nibh ut odio. Aenean ornare mi at ante posuere condimentum. Nulla facilisi. Fusce purus lacus, convallis id purus
+                    vel, auctor imperdiet lorem. Quisque pellentesque, eros a interdum pellentesque, dui dolor pretium dui, eu rhoncus odio
+                    ligula non erat.
+                    <br> <br>
+                    In posuere dui non elit consectetur commodo. Curabitur sed sapien lobortis, bibendum lorem at, maximus sapien. Maecenas
+                    semper magna magna, sed commodo tellus mollis id. Duis ex velit, dignissim in vestibulum in, consequat a arcu. Morbi
+                    rhoncus efficitur erat quis laoreet. Donec lorem ex, molestie a libero non, finibus imperdiet justo. Phasellus non
+                    tincidunt tellus, in fringilla justo. Suspendisse potenti. Morbi nec dolor velit. Aliquam tempor convallis enim, non
+                    laoreet libero ultrices nec. Aenean quis turpis vitae justo elementum ullamcorper a eu felis.
+                    <br> <br>
+                    Donec mi orci, luctus quis rhoncus ac, fermentum id libero. Duis eget ante cursus, faucibus libero ut, consequat arcu.
+                    Donec in enim sed quam sagittis bibendum in a nibh. Maecenas risus neque, dictum in ultricies in, semper nec neque.
+                    Morbi et libero vel urna tincidunt aliquet. Pellentesque non lobortis quam. Etiam hendrerit eleifend rhoncus.</p>
+                    <br> <br>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
