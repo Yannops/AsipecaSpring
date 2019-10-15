@@ -1,14 +1,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>https://asipeca.org.br</loc>
-        
     </url>
     <url>
         <loc>https://asipeca.org.br/historia</loc>
     </url>
     <url>
         <!-- Missão visão e valores -->
-        <loc>https://asipeca.org.br/mvv</loc>
+        <loc>https://asipeca.org.br/missao-visao-valores</loc>
     </url>
     <url>
         <loc>https://asipeca.org.br/equipe</loc>
@@ -32,23 +31,23 @@
     </url>
     <url>
         <!-- TODO: -->
-        <loc>https://asipeca.org.br/maodeobraevt</loc>
+        <loc>https://asipeca.org.br/mao-de-obra-eventos</loc>
     </url>
     <url>
         <!-- TODO: -->
-        <loc>https://asipeca.org.br/maodeobraespec</loc>
+        <loc>https://asipeca.org.br/mao-de-obra-especializada</loc>
     </url>
     <url>
         <!-- TODO: -->
-        <loc>https://asipeca.org.br/doacaodin</loc>
+        <loc>https://asipeca.org.br/doacao-dinheiro</loc>
     </url>
     <url>
         <!-- TODO: -->
-        <loc>https://asipeca.org.br/docaoces</loc>
+        <loc>https://asipeca.org.br/docao-cesta</loc>
     </url>
     <url>
         <!-- Roupas sapatos e brinquedos -->
-        <loc>https://asipeca.org.br/rsb</loc>
+        <loc>https://asipeca.org.br/roupas-sapatos-brinquedos</loc>
     </url>
     <url>
         <loc>https://asipeca.org.br/eventos</loc>

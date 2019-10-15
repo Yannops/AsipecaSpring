@@ -24,7 +24,7 @@ public class HomeController {
         return new ModelAndView("/assistencia");
     }
 
-    @GetMapping("/mvv")
+    @GetMapping("/missao-visao-valores")
     public ModelAndView loadMissaoVisaoValores() {
         return new ModelAndView("/missaovisaovalores");
     }
@@ -64,8 +64,13 @@ public class HomeController {
         return new ModelAndView("/certificacoes");
     }
 
-    @GetMapping(path = "/sitemap.xml", produces = {MediaType.APPLICATION_XML_VALUE})
+    @GetMapping("/sitemap")
     public ModelAndView loadSiteMap() {
+        return new ModelAndView("/sitemap");
+    }
+
+    @GetMapping(path = "/sitemap.xml", produces = { MediaType.APPLICATION_XML_VALUE })
+    public ModelAndView loadSiteMapXml() {
         return new ModelAndView("/sitemap.xml");
     }
     

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" th:replace="~{default :: layout(~{::title}, ~{::section})}">
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Sitemap</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+</head>
+
+<body>
+    <section id="sitemap-container">
+
+        <!-- Breadcrumb -->
+        <div style="margin-left: 3%; margin-right: 3%">
+            <div class="row mb-3">
+                <div class="col-md-12">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb"
+                            style="background: #fff; border-radius: 0; border-bottom: 2px solid#e4ba06;">
+                            <li class="breadcrumb-item"><a href="/home"
+                                    style="color: #1b8140; font-weight: 500">Home</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Sitemap</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-6" id="first-column">
+                        <!-- SOBRE ROW -->
+                        <div class="row ml-2">
+                            <h3>Sobre</h3>
+                        </div>
+                        <hr>
+                        <!-- Historia -->
+                        <div class="row ml-2">
+                            <a href="/historia">História</a>
+                        </div>
+                        <!-- Missão visão e valores -->
+                        <div class="row ml-2">
+                            <a href="/mvv">Missão visão e valores</a>
+                        </div>
+                        <!-- Equipe -->
+                        <div class="row ml-2">
+                            <a href="/equipe">Equipe</a>
+                        </div>
+                        <!-- Parceiros -->
+                        <div class="row ml-2">
+                            <a href="/parceiros">Parceiros</a>
+                        </div>
+                        <!-- Certificações -->
+                        <div class="row ml-2">
+                            <a href="/certificacoes">Certificações</a>
+                        </div>
+                        <!-- Balanço -->
+                        <div class="row ml-2">
+                            <a href="/balanco">Balanço</a>
+                        </div>
+                        <!-- ./SOBRE ROW END -->
+
+                        <!-- ASSISTENCIAS ROW -->
+                        <div class="row mt-4 ml-2">
+                            <h3>Assistências</h3>
+                        </div>
+                        <hr>
+                        <div class="row ml-2">
+                            <a href="/assistencia">Assistências</a>
+                        </div>
+                        <!-- ./ASSISTENCIAS ROW END -->
+
+                        <!-- EVENTOS ROW -->
+                        <div class="row mt-4 ml-2">
+                            <h3>Eventos</h3>
+                        </div>
+                        <hr>
+                        <div class="row ml-2">
+                            <a href="/eventos">Eventos</a>
+                        </div>
+                        <!-- ./EVENTOS ROW END -->
+                    </div>
+                    <div class="col-md-6" id="second-column">
+                        <!-- QUERO AJUDAR ROW -->
+                        <div class="row ml-2">
+                            <h3>Quero ajudar!</h3>
+                        </div>
+                        <hr>
+                        <div class="row ml-2">
+                            <a href="#">Convite de eventos</a>
+                        </div>
+                        <div class="row ml-2">
+                            <a href="#">Mão de obra em eventos</a>
+                        </div>
+                        <div class="row ml-2">
+                            <a href="#">Mão de obra especializada</a>
+                        </div>
+                        <div class="row ml-2">
+                            <a href="#">Doação em dinheiro</a>
+                        </div>
+                        <div class="row ml-2">
+                            <a href="https://cbscestas.com.br/produto/asipeca-associacao-de-socorro-para-pessoas-com-cancer/"
+                                target="_blank">Doação de cestas básicas</a>
+                        </div>
+                        <div class="row ml-2">
+                            <a href="#">Roupas, sapatos e brinquedos</a>
+                        </div>
+                        <!-- ./QUERO AJUDAR ROW -->
+
+                        <!-- CONTATOS ROW -->
+                        <div class="row mt-4 ml-2">
+                            <h3>Contatos</h3>
+                        </div>
+                        <hr>
+                        <div class="row ml-2">
+                            <a href="/contatos">Contatos</a>
+                        </div>
+                    </div>
+                    <!-- ./col-md-6 -->
+                </div>
+            </div>
+            <!-- ./col-md-12 -->
+        </div>
+    </section>
+</body>
+
+</html>

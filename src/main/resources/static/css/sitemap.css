@@ -1,0 +1,13 @@
+section#sitemap-container .col-md-12 .row .col-md-6 a {
+    font-size: 1.3em;
+}
+
+section#sitemap-container .col-md-12 .row .col-md-6 h3 {
+    font-weight: 500;
+}
+
+@media(max-width: 767px) {
+    section#sitemap-container .col-md-12 .row #second-column {
+        margin-top: 4%;
+    }
+}
