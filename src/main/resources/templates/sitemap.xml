@@ -15,7 +15,6 @@
     <url>
         <loc>https://asipeca.org.br/parceiros</loc>
     </url>
-    <!-- TODO: -->
     <url>
         <loc>https://asipeca.org.br/certificacoes</loc>
     </url>
@@ -24,30 +23,6 @@
     </url>
     <url>
         <loc>https://asipeca.org.br/assistencia</loc>
-    </url>
-    <url>
-        <!-- TODO: -->
-        <loc>https://asipeca.org.br/convite-eventos</loc>
-    </url>
-    <url>
-        <!-- TODO: -->
-        <loc>https://asipeca.org.br/mao-de-obra-eventos</loc>
-    </url>
-    <url>
-        <!-- TODO: -->
-        <loc>https://asipeca.org.br/mao-de-obra-especializada</loc>
-    </url>
-    <url>
-        <!-- TODO: -->
-        <loc>https://asipeca.org.br/doacao-dinheiro</loc>
-    </url>
-    <url>
-        <!-- TODO: -->
-        <loc>https://asipeca.org.br/docao-cesta</loc>
-    </url>
-    <url>
-        <!-- Roupas sapatos e brinquedos -->
-        <loc>https://asipeca.org.br/roupas-sapatos-brinquedos</loc>
     </url>
     <url>
         <loc>https://asipeca.org.br/eventos</loc>
